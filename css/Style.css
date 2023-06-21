@@ -11,7 +11,19 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-} 
+}
+.TelaMenu{
+    width: 100%;
+    height: 100%px;
+    background-color: #868686;
+}
+.TelaMenu img{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
 .Cabecalho{
     width: 100%;
     height: 60px;
@@ -55,19 +67,62 @@ body{
     justify-content: space-between;
     border-bottom: 2px solid #000;
 }
-.AdicionarGanhos{
+.Adicionar{
     width: 100%;
     height: 60px;
     background-color: #868686;
     transition: 0.5s;
     cursor: pointer;
 }
-.AdicionarGanhos h2{
+.Adicionar h2{
     color: #ffffff;
     text-align: center;
     position: relative;
     bottom: -15px;
 }
-.AdicionarGanhos:hover{
+.Adicionar:hover{
     opacity: 50%;
 }
+.DescricaoServico{
+    width: 100%;
+    height: 40px;
+    background-color: #D9D9D9;
+}
+.DescricaoServico ul{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+}
+.ItensServico{
+    width: 100%;
+    height: 364px;
+    background-color: #ffffff;
+}
+.ItensServico ul{
+    display: flex;
+    justify-content: center;
+    gap: 500px;
+    border-bottom: 2px solid #000;
+}
+.Navegacao{
+    width: 100%;
+    height: 568px;
+}
+
+.Navegacao a{
+    color: #ffffff;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 180px;
+    height: 30px;
+    border: 2px solid #000;
+    top: 70px;
+    left: 50px;
+    margin-bottom: 25px;
+    margin-left: 5px;
+    text-align: center;
+    border-radius: 10px;
+}
+
